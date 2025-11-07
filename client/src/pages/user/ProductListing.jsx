@@ -239,9 +239,7 @@ const ProductListing = () => {
               <button className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition duration-300">
                 Next
               </button>
-              <button className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition duration-300">
-                Next
-              </button>
+             
             </div>
           </div>
         </div>
