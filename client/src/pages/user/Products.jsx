@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProductCard from '../../components/user/ProductCard';
+import ProductCard from './ProductCard';
 import { Filter, Grid, List, ChevronDown } from 'lucide-react';
 
 const Products = () => {

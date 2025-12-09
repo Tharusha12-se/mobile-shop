@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from '../../components/common/Header';
-import AdminSidebar from '../../components/admin/AdminSidebar';
+import AdminSidebar from './AdminSidebar';
 
 const AdminLayout = ({ onLogout }) => {
   const [sidebarOpen, setSidebarOpen] = useState(true);

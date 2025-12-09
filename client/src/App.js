@@ -8,7 +8,7 @@ import Login from './pages/Login';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [userRole, setUserRole] = useState('user'); // 'user' or 'admin'
+  const [userRole, setUserRole] = useState('user');
 
   const handleLogin = (role) => {
     setIsAuthenticated(true);
@@ -43,7 +43,7 @@ function App() {
           {AdminRoutes()}
         </Route>
         
-        <Route path="/" element={<Navigate to="/user/home" />} />
+        <Route path="/" element={<Navigate to="/login" />} />
       </Routes>
     </Router>
   );

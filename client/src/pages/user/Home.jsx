@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Shield, Truck, RefreshCw, Star } from 'lucide-react';
-import ProductCard from '../../components/user/ProductCard';
+import ProductCard from './ProductCard';
 
 const Home = () => {
   const featuredProducts = [
